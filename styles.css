@@ -15,6 +15,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
 }
 
 /* Typography */
@@ -120,14 +121,55 @@ body {
 
 /* Media Queries */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 755px) {
 	#main-img {
 		content: url("images/image-product-mobile.jpg");
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-height: 800px) and (orientation: portrait) {
+	.container {
+		height: 77%;
+	}
+}
+
+@media screen and (min-height: 950px) and (orientation: portrait) {
+	.container {
+		height: 69%
+	}
+}
+
+@media screen and (min-height: 1100px) and (orientation: portrait) {
+	.container {
+		height: 62%
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.container {
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 756px) {
 	#main-img {
 		content: url("images/image-product-desktop.jpg");
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 1em;
+	}
+
+	.container {
+		flex-direction: row;
+		width: 55%;
+		height: 45%;
+	}
+
+	.img-container {
+		height: 100%;
+		min-width: 50%;
+	}
+
+	.body-container {
+		height: 100%;
 	}
 }
