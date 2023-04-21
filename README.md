@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [GitHub](https://github.com/levinbaenninger/product-card-component)
--   Live Site URL: [Netlify](https://your-live-site-url.com)
+-   Live Site URL: [Netlify](https://card-component-levinbaenninger.netlify.app/)
 
 ## My process
 
