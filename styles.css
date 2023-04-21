@@ -74,6 +74,12 @@ body {
 	gap: .75em;
 	margin-bottom: 1em;
 	margin-top: auto;
+	transition: background-color 300ms ease-in-out;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: rgb(38, 90, 72);
 }
 
 .icon {
@@ -171,5 +177,17 @@ body {
 
 	.body-container {
 		height: 100%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.container {
+		width: 35%;
+	}
+}
+
+@media screen and (min-height: 1050px) and (orientation: landscape) {
+	.container {
+		height: 45%;
 	}
 }
