@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/levinbaenninger/product-card-component)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [GitHub](https://github.com/levinbaenninger/product-card-component)
+-   Live Site URL: [Netlify](https://your-live-site-url.com)
 
 ## My process
 
